@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: lightblue;
+  color: white;
+  margin-top: 3rem;
+}
+.footer > h4 {
+  font-weight: 600;
+}
