@@ -1,0 +1,30 @@
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background: lightblue;
+  color: #fff;
+}
+
+.Title-Subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}
+.navLinks {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.navLinks:hover {
+  color: rgb(177, 177, 177);
+}
+.navLinkBar {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link-active {
+  border-bottom: 2px solid whitesmoke;
+  font-weight: 800;
+}
